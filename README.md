@@ -36,8 +36,10 @@ End the program and close the output video windows by pressing 'q'.
 ``` Python
 ### Developed By:JEEVAGOWTHAM S
 ### Register No: 212222230053
+```
 
 ## i) Write the frame as JPG file
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while (True):
@@ -46,10 +48,11 @@ while (True):
     result = False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
+```
 
 
 ## ii) Display the video
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while(True):
@@ -60,9 +63,10 @@ while(True):
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-
+```
 
 ## iii) Display the video by resizing the window
+```
 import cv2
 import numpy as np
 cap = cv2.VideoCapture(0)
@@ -82,10 +86,11 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
+```
 
 
 ## iv) Rotate and display the video
+```
 import cv2
 import numpy as np
 cap = cv2.VideoCapture(0)
@@ -104,7 +109,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
 
 
 
